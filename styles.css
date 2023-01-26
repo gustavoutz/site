@@ -1,0 +1,160 @@
+
+/* tag CSSs */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #66bfbf;
+    font-family: "Helvetica", cursive;
+}
+
+h2 {
+    color: #86C8BC; 
+    font-family: "Helvetica", cursive;
+}
+
+h3 {
+    color: #66bfbf;
+    font-family: "Helvetica", cursive;
+}
+
+
+div {
+    padding: 10px;
+}
+
+
+/**** div classes ****/
+
+.skill-row{
+    width: 50%;
+    text-align: center;
+    margin:  50px auto 50px auto; /* Top, right, bottom, left */
+    text-align: left;
+    /* "auto" is a way to horizontally center elements */
+    line-height: 2;
+}
+
+.top-container {
+    position: relative;
+    background-color: #EAF6F6;
+    margin: 8px;
+    padding: 120px;
+    }
+    
+.middle-container {
+    }
+    
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 30px;
+    }
+
+.contact-me{
+    line-height: 2;
+}
+
+/**** images classes ****/
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+}
+
+.music-note-pic {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.development-pic {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.top-cloud {
+    top: 90px;
+    right: 300px;
+    position: absolute;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+
+/**** font classes ****/
+
+.description-font{
+    color: #40514E;
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+
+.contact-me-description{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    margin-top: 5px;
+    margin-bottom:30;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+    margin: 25px;
+    color: 11999E;
+    text-decoration: none;
+}
+
+.last-description{
+font-size: 12;
+color: white;
+margin-top: 25px;
+}
+
+/** hr classes */
+
+.gray-dotted{
+
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #DDDDDD;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
